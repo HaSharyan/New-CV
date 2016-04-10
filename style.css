@@ -1,0 +1,22 @@
+﻿body {
+    margin:5% 15%;
+}
+
+header img{
+    position:relative;
+    float: left;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+header section {
+    position: relative;
+    float: left;
+    text-align:center;
+    margin-left: 30%;
+}
+
+header h1, p {
+    text-decoration: underline;
+}
