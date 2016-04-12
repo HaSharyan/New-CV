@@ -1,8 +1,10 @@
 ﻿body {
     background-image: url(IMG\images.jpg);
+    background-size: 100%;
     margin:5% 15%;
     padding: 15px;
 }
+
 
 
 header img{
@@ -42,6 +44,7 @@ nav {
 }
 
 nav ul {
+    margin-left: 50px;
     list-style-type: none;
 
 }
@@ -52,7 +55,9 @@ nav ul li {
 }
 
 table {
+    float: left;
     margin-top: 120px;
+    margin-left: 20px;
     border-collapse: collapse;
     width: 40%;
     background-color: lightgray;
@@ -74,6 +79,7 @@ th, td {
 }
 
 .second{
+    color: blue;
     font-family: 'Condiment', cursive;
 }
 
@@ -85,3 +91,22 @@ th, td {
 abbr {
     background-color: lawngreen;
 }
+
+#about {
+    float: left;
+    margin: 120px 20px 0 50px;
+    width: 50%;
+    background-color: lightgray;
+    border-radius: 50px;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+section p {
+    text-align: justify;
+    padding: 10px;
+}
+
