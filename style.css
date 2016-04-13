@@ -1,8 +1,10 @@
 ﻿body {
     background-image: url(IMG\images.jpg);
+    background-size: 100%;
     margin:5% 15%;
     padding: 15px;
 }
+
 
 
 header img{
@@ -23,6 +25,7 @@ header section {
 }
 
 header h1>pre, header p {
+    color: blue;
     font-family: 'Niconne', cursive;
     font-size:40px;
     text-decoration: underline;
@@ -42,6 +45,7 @@ nav {
 }
 
 nav ul {
+    margin-left: 50px;
     list-style-type: none;
 
 }
@@ -51,18 +55,17 @@ nav ul li {
     margin-right:40px;    
 }
 
-#personal {
-    margin-top: 120px;
-}
-
 table {
+    float: left;
+    margin-top: 120px;
+    margin-left: 20px;
     border-collapse: collapse;
     width: 40%;
     background-color: lightgray;
 }
 
 th {
-    width:155%;
+    width: 149%;
     font-size: 30px;
     float: left;
 
@@ -77,5 +80,204 @@ th, td {
 }
 
 .second{
-    font-family: 'Niconne', cursive;
+    color: blue;
+    font-family: 'Condiment', cursive;
 }
+
+#education {
+    margin-top: 20px;
+    border-top: 5px solid white;
+}
+
+abbr {
+    background-color: lawngreen;
+}
+
+#about {
+    float: left;
+    margin: 120px 20px 0 50px;
+    width: 50%;
+    height: 400px;
+    background-color: lightgray;
+    border-radius: 50px;
+}
+
+#about h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+#about p {
+    font-family: 'Condiment', cursive;
+    text-decoration: underline;
+    color:blue;
+    text-align: justify;
+    padding: 10px;
+}
+
+#skills {
+    float: left;
+    margin-top: 40px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+#skills h1{
+    text-align: center;
+    font-size:30px;
+    margin-top: 0;
+}
+
+.development {
+    border: 1px solid black;
+    position:relative;
+    float:left;
+    margin-left:20px;
+    width:30%;
+    display:block;
+}
+
+#skills h3{
+    text-align:center;
+    text-decoration:underline;
+}
+
+#skills p {
+    float:left;
+    margin-left:10px;
+}
+
+.line{
+    float: left;
+    display:inline-block;
+    margin-top:-12px;
+    margin-left:20px;
+    margin-bottom:10px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    width: 80%;
+    height: 20px;
+    background-color: white;
+}
+
+.s1 {
+    background-color: blue;
+    width:70%;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.s1::after{
+    float:right;
+    font-style: oblique;
+    font-weight: 800;
+    content: "70%";
+    color: black;
+}
+
+.c {
+    background-color: blue;
+    width:50%;
+    height: 20px;
+    border-radius:15px;
+}
+.c::after{
+    float:right;
+    font-style: oblique;
+    font-weight: 800;
+    content: "50%";
+    color: black;
+}
+
+.computer {
+     border: 1px inset black;
+    position:relative;
+    float: left;
+    margin-left:25px;
+    width:30%;
+    display:block;
+}
+
+.ms {
+    background-color:blue;
+    width: 60%;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.ms::after{
+    float:right;
+    font-style: oblique;
+    font-weight: 800;
+    content: "60%";
+    color: black;
+}
+
+.ps {
+    background-color:blue;
+    width: 40%;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.ps::after{
+    float:right;
+    font-style: oblique;
+    font-weight: 800;
+    content: "40%";
+    color: black;
+}
+
+.lenguages {
+    border: 1px inset black;
+    position:relative;
+    float: left;
+    margin-left:25px;
+    width:30%;
+    display:block;
+}
+
+.native {
+    background-color:blue;
+    width: 99%;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.native::after {
+    float:right;
+    font-style: oblique;
+    font-weight: 800;
+    content: "native";
+    color: black;
+}
+.intermediate {
+    background-color:blue;
+    width: 99%;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.intermediate::after {
+    float:right;
+    font-style: oblique;
+    font-weight: 800;
+    content: "intermediate";
+    color: black;
+}
+
+.upper-intermediate {
+    background-color:blue;
+    width: 70%;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.upper-intermediate::after {
+    float:right;
+    font-style: oblique;
+    font-weight: 800;
+    content: "upper-intermediate";
+    color: black;
+}
+
