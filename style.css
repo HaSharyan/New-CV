@@ -24,9 +24,13 @@ header section {
     margin-bottom: 25px;
 }
 
-header h1>pre, header p {
-    color: blue;
-    font-family: 'Niconne', cursive;
+header h1>pre {
+    font-size: 45px;
+    color: darkblue;
+    text-decoration: underline;
+}
+ header p {
+    color: darkblue;
     font-size:40px;
     text-decoration: underline;
 }
@@ -57,7 +61,7 @@ nav ul li {
 
 table {
     float: left;
-    margin-top: 120px;
+    margin-top: 80px;
     margin-left: 20px;
     border-collapse: collapse;
     width: 40%;
@@ -95,7 +99,7 @@ abbr {
 
 #about {
     float: left;
-    margin: 120px 20px 0 50px;
+    margin: 80px 20px 0 50px;
     width: 50%;
     height: 400px;
     background-color: lightgray;
@@ -279,5 +283,19 @@ abbr {
     font-weight: 800;
     content: "upper-intermediate";
     color: black;
+}
+
+#army {
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+    width: 100%;
+    background-image: url(IMG/army.jpg);
+    background-size: 100%;
+    
+}
+#army h3{
+    font-size:30px;
+    color: white;
 }
 
