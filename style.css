@@ -90,7 +90,7 @@ th, td {
 
 #education {
     margin-top: 20px;
-    border-top: 5px solid white;
+
 }
 
 abbr {
@@ -103,7 +103,7 @@ abbr {
 }
 
 .table2 th {
-    width: 207%;
+    width: 201%;
 }
 
 .table2 a {
@@ -112,9 +112,14 @@ abbr {
     font-family: 'Condiment', cursive;
 }
 
+.table2 img.icon{
+    margin-left: 7px;
+    width: 22px;
+    height: 19px;
+}
+
 #address {
     margin-top: 20px;
-    border-top: 5px solid white;
 }
 
 .table2 img {
