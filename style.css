@@ -27,12 +27,14 @@ header section {
 header h1>pre {
     font-size: 45px;
     color: darkblue;
-    text-decoration: underline;
+ 
+    opacity: 0.9;
 }
  header p {
     color: darkblue;
     font-size:40px;
-    text-decoration: underline;
+ 
+    opacity: 0.7;
 }
 
 header hr {
@@ -60,6 +62,7 @@ nav ul li {
 }
 
 table {
+    position:relative;
     float: left;
     margin-top: 80px;
     margin-left: 50px;
@@ -69,13 +72,24 @@ table {
 }
 
 th {
-    width: 166%;
+    color:darkblue;
+    opacity:0.9;
+    width: 195%;
     font-size: 30px;
     float: left;
 
 }
+table th img {
+    margin-left: 15px;
+    vertical-align: middle;
+    width:30px;
+    height: 30px;
+}
 
-
+#contacts img {
+    width: 80px;
+    height: 30px;
+}
 
 th, td {
     padding: 5px;
@@ -103,7 +117,7 @@ abbr {
 }
 
 .table2 th {
-    width: 201%;
+    width: 217%;
 }
 
 .table2 a {
@@ -119,7 +133,7 @@ abbr {
 }
 
 #address {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .table2 img {
@@ -132,49 +146,25 @@ sup {
     color: cornflowerblue;
 }
 
+.first {
+    font-weight: bold;
+}
 
-#skills {
-    float: left;
-    margin-top: 40px;
-    width: 100%;
+.skills {
+
+    float:left;
+    margin-left: 0;
+    width: 45.4%;
     background-color: white;
 }
 
-#skills h1{
-    text-align: center;
-    font-size:30px;
-    margin-top: 0;
-}
-
-.development {
-    border: 1px solid black;
-    position:relative;
-    float:left;
-    margin-left:20px;
-    width:30%;
-    display:block;
-
-}
-
-#skills h3{
-    text-align:center;
-    text-decoration:underline;
-}
-
-#skills p {
-    float:left;
-    margin-left:10px;
+.skills th {
+    width: 326%;
 }
 
 .line{
-    float: left;
-    display:inline-block;
-    margin-top:-12px;
-    margin-left:20px;
-    margin-bottom:10px;
     border: 1px solid cornflowerblue;
-    border-radius: 15px;
-    width: 80%;
+    width:100%;
     height: 20px;
     background-color: white;
 }
@@ -183,7 +173,7 @@ sup {
     background-color: cornflowerblue;
     width:70%;
     height: 20px;
-    border-radius: 15px;
+
 }
 
 .s1::after{
@@ -198,7 +188,7 @@ sup {
     background-color: cornflowerblue;
     width:50%;
     height: 20px;
-    border-radius:15px;
+
 }
 .c::after{
     float:right;
@@ -208,59 +198,11 @@ sup {
     color: black;
 }
 
-.computer {
-     border: 1px inset black;
-    position:relative;
-    float: left;
-    margin-left:25px;
-    width:30%;
-    display:block;
-}
-
-.ms {
-    background-color:cornflowerblue;
-    width: 60%;
-    height: 20px;
-    border-radius: 15px;
-}
-
-.ms::after{
-    float:right;
-    font-style: oblique;
-    font-weight: 800;
-    content: "60%";
-    color: black;
-}
-
-.ps {
-    background-color:cornflowerblue;
-    width: 40%;
-    height: 20px;
-    border-radius: 15px;
-}
-
-.ps::after{
-    float:right;
-    font-style: oblique;
-    font-weight: 800;
-    content: "40%";
-    color: black;
-}
-
-.lenguages {
-    border: 1px inset black;
-    position:relative;
-    float: left;
-    margin-left:25px;
-    width:30%;
-    display:block;
-}
-
 .native {
     background-color:cornflowerblue;
     width: 99%;
     height: 20px;
-    border-radius: 15px;
+
 }
 
 .native::after {
@@ -274,7 +216,7 @@ sup {
     background-color:cornflowerblue;
     width: 99%;
     height: 20px;
-    border-radius: 15px;
+
 }
 
 .intermediate::after {
@@ -289,7 +231,7 @@ sup {
     background-color:cornflowerblue;
     width: 70%;
     height: 20px;
-    border-radius: 15px;
+
 }
 
 .upper-intermediate::after {
@@ -298,6 +240,12 @@ sup {
     font-weight: 800;
     content: "upper-intermediate";
     color: black;
+}
+
+img.logo {
+    float:right;
+    width: 22px;
+    height: 19px;
 }
 
 #army {
@@ -322,6 +270,8 @@ sup {
 }
 
 .c1, .c2 {
+    color:darkblue;
+    opacity:0.9;
     font-size:30px;
     font-weight: bold;
     margin-bottom:5px;
@@ -344,6 +294,7 @@ table.soc img {
 }
 
 .name {
+    font-weight:bold;
     margin-left:50px;
     font-size: 20px;
 }
