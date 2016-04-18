@@ -23,10 +23,10 @@
             <ul>
                 <li><a href="#personal"> Personal</a></li>
                 <li><a href="#education"> Education </a></li>
+                <li><a href="#about"> Contactcs</a></li>
                 <li><a href="#skills"> Skills</a></li>
                 <li><a href="#army"> Army</a></li>
-                <li><a href="#about"> About me</a></li>
-                <li><a href=""> Contact me</a></li>
+                <li><a href="#contactMe"> Contact me</a></li>
             </ul>
         </nav>
 
@@ -133,42 +133,25 @@
             <tr>
                 <td width="30%" class="first"> HTML5: <img src="IMG/html5.png" alt="logo" class="logo" /></td>
                 <td> 
-                    <div class="line">
-                        <div class="s1">
-
-                        </div>
-
-                    </div>
+                    <progress max="100" value="70" class="s1"></progress>
                 </td>
             </tr>
             <tr>
                 <td class="first"> CSS3: <img src="IMG/css3.png" alt="logo" class="logo" /></td>
                 <td>
-                    <div class="line">
-                        <div class="s1">
-
-                        </div>
-                    </div>
+                    <progress max="100" value="70" class="s1"></progress>
                 </td>
             </tr>
             <tr>
                 <td class="first"> JavaScript:<img src="IMG/javascript.png" alt="logo" class="logo" /> </td>
                 <td>
-                    <div class="line">
-                        <div class="c">
-
-                        </div>
-                    </div>
+                    <progress max="100" value="50" class="c"></progress>
                 </td>
             </tr>
             <tr>
                 <td class="first"> C++: <img src="IMG/cplusplus.png" alt="logo" class="logo" /></td>
                 <td>
-                    <div class="line">
-                        <div class="c">
-
-                        </div>
-                    </div>
+                    <progress max="100" value="50" class="c"></progress>
                 </td>
             </tr>
 
@@ -178,31 +161,19 @@
             <tr>
                 <td class="first"> Armenian: <img src="IMG/armenia.jpg" alt="logo" class="logo" /> </td>
                 <td>
-                    <div class="line">
-                        <div class="native">
-
-                        </div>
-                    </div>
+                    <progress max="100" value="99" class="native"></progress>
                 </td>
             </tr>
             <tr>
                 <td class="first"> Russian: <img src="IMG/ru.png" alt="logo" class="logo" /> </td>
                 <td>
-                    <div class="line">
-                        <div class="intermediate">
-
-                        </div>
-                    </div>
+                    <progress max="100" value="99" class="intermediate"></progress>
                 </td>
             </tr>
             <tr>
                 <td class="first"> English: <img src="IMG/english.png" alt="logo" class="logo" /> </td>
                 <td>
-                    <div class="line">
-                        <div class="upper-intermediate">
-
-                        </div>
-                    </div>
+                    <progress max="100" value="60" class="upper-intermediate"></progress>
                 </td>
             </tr>
              
@@ -261,11 +232,36 @@
                 </tr>
 
                 <tr>
-                    <td> <img src="IMG/contact.jpg" alt=" logo" /></td> 
-                    <td class="name"> <a href=""> You can contact to me, click here</a></td> 
+                    <td> <img src="IMG/contact.jpg" alt="logo" /></td> 
+                    <td class="name"> <a href="#contactMe"> You can contact to me, click here</a></td> 
                 </tr>
             </table>
+            
+            <div class="block" id="contactMe">
+                <div class="box">
+                    <form method="post" class="content">
+                        <a href="#" class="closebtn"> × </a>
+                        <h1> Contact Me</h1>
+                        <input type="email" name="email" placeholder="Email" required title="From" class="input1" />
+                        <select size="1" name="subjekt">
+                            <option disabled selected class="selected">Choose subjekt</option>
+                            <option value="HTML5">HTML5</option>
+                            <option value="CSS3">CSS3</option>
+                            <option value="JavaScript"> JavaScript</option>
+                            <option value="C++">C++</option>
+                        </select>
+                        <section class="radio">
+                            <input type="radio" value="start-up" name="job" /> Start-up:
+                            <input type="radio" value="work" name="job" /> Work:
+                        </section>
+                        <textarea required name="textarea" placeholder="Write a text:" class="textarea"></textarea>
+                        <section class="buttons">
+                            <button type="reset" value="Reset" title="Reset" class="resetbtn"> Reset </button>
+                            <button type="submit" value="Send" title="Send" class="sendbtn"> Send </button>
+                        </section>
+                    </form>
+                </div>
+            </div>
         </footer>
-
 </body>
 </html>
