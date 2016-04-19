@@ -244,17 +244,30 @@
                         <a href="#" class="closebtn"> × </a>
                         <h1> Contact Me</h1>
                         <input type="email" name="email" placeholder="Email" required title="From" class="input1" />
-                        <select size="1" name="subjekt">
-                            <option disabled selected class="selected">Choose subjekt</option>
-                            <option value="HTML5">HTML5</option>
-                            <option value="CSS3">CSS3</option>
-                            <option value="JavaScript"> JavaScript</option>
-                            <option value="C++">C++</option>
-                        </select>
-                        <section class="radio">
-                            <input type="radio" value="start-up" name="job" /> Start-up:
-                            <input type="radio" value="work" name="job" /> Work:
-                        </section>
+                        <fieldset class="radio">
+                            <legend> Offer From</legend>
+                                <input type="radio" value="Individual " name="job" /> Individual:
+                                <input type="radio" value="Company" name="job" /> Comapny:                            
+                        </fieldset>
+
+                        <fieldset class="checkbox">
+                            <legend> Choose the "lenguages"</legend>
+                            <input type="checkbox" value="HTML5" name="skill" /> HTML5:
+                            <input type="checkbox" value="CSS3" name="skill" /> CSS3:
+                            <input type="checkbox" value="JavaScript" name="skill" /> JavaScript:
+                            <input type="checkbox" value="C++" name="skill" /> C++:
+
+                        </fieldset>
+                        <fieldset class="select">
+                            <legend> Duration of contract </legend>
+                            <select size="1" name="subjekt">
+                                <option disabled selected class="selected"> Duration </option>
+                                <option value="mont">1 Month:</option>
+                                <option value="1-6"> 1-6 Month:</option>
+                                <option value="year"> 1 year</option>
+                                <option value="more">1 Year and More:</option>
+                            </select>
+                        </fieldset>
                         <textarea required name="textarea" placeholder="Write a text:" class="textarea"></textarea>
                         <section class="buttons">
                             <button type="reset" value="Reset" title="Reset" class="resetbtn"> Reset </button>
