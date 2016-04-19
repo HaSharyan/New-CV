@@ -407,3 +407,8 @@ select {
     border-radius: 30px;
     background-color: lightgray;
 }
+
+:target:not(#contactMe) {
+    background-color:#ffff80;
+    transition-duration:1s; 
+}
