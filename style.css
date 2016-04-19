@@ -27,13 +27,11 @@ header section {
 header h1>pre {
     font-size: 45px;
     color: darkblue;
- 
     opacity: 0.9;
 }
  header p {
     color: darkblue;
     font-size:40px;
- 
     opacity: 0.7;
 }
 
@@ -167,11 +165,15 @@ sup {
     width: 326%;
 }
 
+.progress {
+    width:70%;
+}
+
 progress {
     width: 100%;
 }
 
-progress[value].s1::after{
+.s1::after{
     float:right;
     font-style: oblique;
     font-weight: 800;
@@ -404,4 +406,9 @@ select {
     width: 30%;
     border-radius: 30px;
     background-color: lightgray;
+}
+
+:target:not(#contactMe) {
+    background-color:#ffff80;
+    transition-duration:1s; 
 }
