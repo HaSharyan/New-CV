@@ -359,27 +359,35 @@ form.content {
     color: cornflowerblue;
 }
 
-select {
-    border-radius:30px;
-    margin-left:25%;
-    width:20%;
-    height: 23px;
-    color: cornflowerblue;
+
+legend {
+    color:black;
 }
-
-
 
 
 .radio {
-    border:1px solid white;
-    border-radius:30px;
-    float: right;
-    margin-right:25%;
-    width:25%;
-    color:cornflowerblue;
-    background-color: white;
+    float: left;
+    margin-left:25%;
+    width:47%;
+    color:white;
 }
 
+.checkbox {
+    width: 47%;
+    float: left;
+    margin-left: 25%;
+    color:white;
+}
+
+.select {
+    float: left;
+    margin-left:25%;
+    width: 47%;
+}
+
+select {
+    width: 60%;
+}
 .textarea {
     margin-top: 15px;
     margin-left: 20%;
