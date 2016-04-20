@@ -93,6 +93,10 @@ header h1>pre {
     color: black;
 }
 
+.hobbie {
+    display:none;
+}
+
 footer {
     display: none;
 }
