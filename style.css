@@ -154,7 +154,7 @@ sup {
 }
 
 .skills {
-
+    clear:left;
     float:left;
     margin-left: 0;
     width: 45.4%;
@@ -162,7 +162,7 @@ sup {
 }
 
 .skills th {
-    width: 326%;
+    width: 324%;
 }
 
 .progress {
@@ -222,6 +222,32 @@ img.logo {
     float:right;
     width: 22px;
     height: 19px;
+}
+
+.hobbie {
+    float: right;
+    width: 45.4%;
+    clear: right;    
+}
+
+.hobbie th {
+    width:278%;
+}
+
+.hobbie td {
+    width: 23%;
+}
+
+img.hobbie-icon {
+    width: 100px;
+    height: 84px;
+    border-radius: 50%;
+}
+
+.hobbie-name {
+    text-align: center;
+    margin-top: -5px;
+    font-weight: bold;
 }
 
 #army {
